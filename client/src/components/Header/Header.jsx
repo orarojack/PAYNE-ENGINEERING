@@ -42,12 +42,12 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <NavLink to="/properties">Properties</NavLink>
+            <NavLink to="/properties">Clientelle</NavLink>
 
-            <a href="mailto:zainkeepscode@gmail.com">Contact</a>
+            <a href="mailto:payneengineering@gmail.com">Contact</a>
 
             {/* add property */}
-            <div onClick={handleAddPropertyClick}>Add Property</div>
+            <div onClick={handleAddPropertyClick}>Join Us</div>
             <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
             {/* login button */}
             {!isAuthenticated ? (
